@@ -1,0 +1,1 @@
+def SystemNotification(severity, *messages)
