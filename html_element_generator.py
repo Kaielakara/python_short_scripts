@@ -6,9 +6,7 @@ def element_generator(tag, content, **attribute):
 
     for key,value in attribute.items():
         attr.append(f'{key}: {value}')
-        
-
-    print(attr)
+    
     a = " ".join(attr)
 
     return f"<{tag} {a} > {content} </{tag}>"
